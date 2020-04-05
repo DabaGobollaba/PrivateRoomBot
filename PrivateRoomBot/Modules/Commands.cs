@@ -1,13 +1,10 @@
 ﻿using Discord;
-using Discord.Addons.EmojiTools;
 using Discord.Commands;
 using Discord.WebSocket;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -198,8 +195,8 @@ namespace TestEasyBot.Modules
                           
                             );
                         Thread.Sleep(1000);
-                        await msg.AddReactionAsync(EmojiExtensions.FromText("::white_check_mark::"));
-                        await msg.AddReactionAsync(EmojiExtensions.FromText(":no_entry_sign:"));
+                        //await msg.AddReactionAsync(EmojiExtensions.FromText("::white_check_mark::"));
+                        //await msg.AddReactionAsync(EmojiExtensions.FromText(":no_entry_sign:"));
                     }
                     else
                     {

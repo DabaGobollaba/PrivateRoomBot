@@ -1,12 +1,9 @@
 ﻿using System;
 using Discord;
-using System.Collections.Generic;
-using System.Text;
 using Discord.WebSocket;
 using Discord.Commands;
 using System.Reflection;
 using System.Threading.Tasks;
-using Discord.Addons.EmojiTools;
 using System.Text.RegularExpressions;
 
 namespace TestEasyBot
